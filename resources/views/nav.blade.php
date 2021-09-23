@@ -15,7 +15,7 @@
                 </li>
                 @if(Auth::check()) 
                     <li class="nav-item {{ Request::is('dashboard') ? 'active' : '' }}">
-                        <a class="nav-link" href="{{url('/dashboard')}}"><i class="fas fa-th-large"></i></i> Dashboard</a>
+                        <a class="nav-link" href="{{url('/dashboard')}}"><i class="fas fa-th-large"></i> Dashboard</a>
                     </li>
 
                     <li class="nav-item dropdown" style="cursor: pointer">
