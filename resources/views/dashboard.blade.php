@@ -2,7 +2,7 @@
 
 @section('content')
     <h1 class="font-weight-light text-white"><i class="fas fa-th-large"></i> Dashboard</h1>
-    <div class="container bg-white p-3 rounded">
+    <div class="container bg-white p-3 rounded dashcon">
         <div class="container bootstrap snippet">
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
