@@ -24,7 +24,7 @@
                     <div class="form-group login-form @error('contactNo') has-error @enderror">
                         <label for="contactNo"><i class="far fa-phone-alt"></i> Contact No.</label>
                         <span class="prepend">+63</span>
-                        <input type="text" name="contactNo" id="contactNo" value="{{ old('contactNo') ? old('contactNo') : '9458090921' }}" class="form-control">
+                        <input type="text" name="contactNo" id="contactNo" value="{{ old('contactNo') ? old('contactNo') : '9458090921' }}" class="form-control" readonly>
                         <span class="errspan" id="errspan">{{ $errors->first('contactNo') }}</span>
                     </div>
                     <div class="form-group @error('password') has-error @enderror">
